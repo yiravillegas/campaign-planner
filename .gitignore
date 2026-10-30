@@ -1,0 +1,21 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Common dependencies and output; combine with the imported app's own rules
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+dist/
+build/
+.next/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
