@@ -1,0 +1,2 @@
+[functions.generate-campaign-plan]
+verify_jwt = true
